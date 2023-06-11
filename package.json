@@ -1,0 +1,28 @@
+{
+  "name": "my-yoga-server",
+  "version": "1.0.0",
+  "description": "This app runs API with yoga grapql server",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development nodemon main.js",
+    "api": "cross-env NODE_ENV=production nodemon main.js",
+    "start": "npm run api"
+  },
+  "author": "Mariano Beccaria",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/schema": "^10.0.0",
+    "express": "^4.18.2",
+    "graphql": "^16.6.0",
+    "graphql-yoga": "^3.5.1",
+    "yoga": "^0.0.20"
+  },
+  "devDependencies": {
+    "@prisma/client": "4.15.0",
+    "cross-env": "7.0.3",
+    "nodemon": "2.0.22",
+    "prisma": "4.15.0"
+  }
+}
