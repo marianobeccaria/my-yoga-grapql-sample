@@ -53,4 +53,12 @@ NOTE: make sure to include /grpahql at the end
 ```
 
 ## References
+### Graphql
+https://the-guild.dev/graphql/yoga-server/tutorial/basic
+https://javascript.plainenglish.io/building-graphql-server-with-node-js-c31ee3f54761
+https://www.prisma.io/blog/graphql-server-basics-the-schema-ac5e2950214e
+
+### Pulumi
 https://www.pulumi.com/docs/clouds/aws/get-started/
+https://www.pulumi.com/docs/clouds/aws/guides/eks/#overview
+
